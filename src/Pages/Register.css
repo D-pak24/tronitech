@@ -1,0 +1,22 @@
+.formContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background-color: #00011e !important;
+}
+.formContainer .Uc2NEf{
+    background-color: #00011e !important;
+}
+.formContainer .m7w29c{
+    background-color: red;
+}
+.back{
+    width: fit-content;
+    font-size: 0.8rem !important;
+    margin-top: 20px;
+    background-color: rgb(100, 0, 155);
+    position: fixed;
+    left: 10rem;
+    padding: 15px 25px;
+}

@@ -37,7 +37,7 @@ function About() {
 
   return (
     <>
-      <h2>About Us</h2>
+      <h2 className="aboutus">About Us</h2>
       <p className="aboutpara">
         We are thrilled to extend our invitation to all of you for Agni College of Technology's Symposium organized by Electronics and Communication Engineering (ECE), "TRONIXTECH," scheduled for April 13th. Our aim is to cultivate a culture of knowledge exchange, collaboration, and innovation. Our objective is to delve into emerging trends, exchange invaluable insights, and tackle the pressing challenges within our industry. Together, let's pave the way forward, igniting positive transformation and progress. We urge you to actively engage and seize the opportunity to connect with fellow enthusiasts who share your zeal and commitment. We anticipate that "TRONIXTECH" will be an event filled with both enlightenment and inspiration. Come, join us, and let's embark on this exhilarating journey of exploration and discovery together!
       </p>
