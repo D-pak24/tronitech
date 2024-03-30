@@ -1,0 +1,43 @@
+.contactContainer {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contactHeader {
+    font-size:2rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+  }
+  
+  .contactDetails {
+    display: flex;
+    text-align:start;
+    flex-direction: column;
+  }
+  .aboutcontact{
+    font-size: 0.8rem !important;
+    font-optical-sizing: auto;
+    text-align: start;
+    max-width: 400px;
+    font-weight: 400;
+  }
+  
+  .contactDetails h4 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+  }
+  .line{
+
+    left: -0.1em;
+    width: 100%;
+    margin: 20px 0px;
+    height: 2px;
+    background-color: rgb(62, 26, 82);
+  }
+  .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  
