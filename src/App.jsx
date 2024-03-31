@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar";
+import { Link } from "react-router-dom";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import Events from "./Components/Events";
 import About from "./Components/About";
@@ -36,7 +37,9 @@ function App() {
                 <div className="Title">Get Ready!</div>
                 <div className="titleContent">Symposium Time let's dive in</div>
                 {/* <p>Venue : Agni College Of Technology</p> */}
-                <button className="mainBtn">Register Now</button>
+                <Link to={"/register"}>
+                  <button className="mainBtn">Register Now</button>
+                </Link>
               </div>
             </div>
           </ParallaxLayer>
@@ -66,7 +69,7 @@ function App() {
               backgroundImage: `url(${glitter})`,
               background:
                 "linear-gradient(rgb(63, 26, 82) 1.68%, rgb(17, 26, 59) 31.25%, rgb(19, 6, 29) 101.23%)",
-                backgroundSize:"cover"
+              backgroundSize: "cover",
             }}
             id="events"
           >
