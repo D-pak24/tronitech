@@ -15,7 +15,7 @@
   flex-direction: column;
 }
 .aboutcontact {
-  font-size: 0.8rem !important;
+  font-size: 0.8rem;
   font-optical-sizing: auto;
   text-align: start;
   max-width: 400px;
@@ -41,46 +41,73 @@
 
 @media (max-width: 580px) {
   .contactHeader {
-    font-size: 1.5rem;
-    padding-bottom: 0.7rem;
-  }
-  .contactDetails h4 {
-    font-size: 1.1rem;
-  }
-  .aboutcontact{
-    font-size: 0.7rem !important; 
-  }
-  .footer div{
-    font-size: 1rem !important;
-  }
-}
-@media (max-width: 400px) {
-  .contactHeader {
     font-size: 1.3rem;
-    padding-bottom: 0.7rem;
-  }
-  .contactDetails h4 {
-    font-size: 1rem;
-  }
-  .aboutcontact{
-    font-size: 0.6rem !important;
-  }
-  .footer div{
-    font-size: 0.9rem !important;
-  }
-}
-@media (max-width: 340px) {
-  .contactHeader {
-    font-size: 1.2rem;
     padding-bottom: 0.7rem;
   }
   .contactDetails h4 {
     font-size: 0.9rem;
   }
+  .tronixtech{
+    font-size: 0.9rem;
+  }
+  .mail{
+    font-size: 0.9rem;
+  }
+  .email{
+    font-size: 0.9rem;
+  }
   .aboutcontact{
-    font-size: 0.5rem !important;
+    font-size: 0.7rem ; 
   }
   .footer div{
-    font-size: 0.8rem !important;
+    font-size: 0.9rem ;
+  }
+}
+@media (max-width: 400px) {
+  .contactHeader {
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+  }
+  .contactDetails h4 {
+    font-size: 0.8rem;
+  }
+  .tronixtech{
+    font-size: 0.7rem;
+  }
+  .mail{
+    font-size: 0.7rem;
+  }
+  .email{
+    font-size: 0.7rem;
+  }
+  .aboutcontact{
+    font-size: 0.6rem ;
+  }
+  .footer div{
+    font-size: 0.8rem ;
+  }
+}
+@media (max-width: 340px) {
+  .contactHeader {
+    font-size: 0.9rem;
+    padding-bottom: 0.7rem;
+  }
+  .contactDetails h4 {
+    font-size: 0.7rem;
+  }
+  .tronixtech{
+    font-size: 0.6rem;
+  }
+  .mail{
+    font-size: 0.6rem;
+  }
+  .email{
+    font-size: 0.4rem;
+  }
+  .aboutcontact{
+    font-size: 0.5rem ;
+  }
+  .footer div{
+    font-size: 0.7rem ;
   }
 }

@@ -19,7 +19,7 @@ function Contact() {
       <div className="footer">
         <div className="tronixtech">TRONIXTECH ' 24</div>
         <div className="email">
-          Email : <span className="mail">tronixtech@gmail.com</span>
+          <div className="email">Email :</div> <span className="mail">tronixtech@gmail.com</span>
         </div>
       </div>
     </div>
