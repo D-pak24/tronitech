@@ -7,7 +7,8 @@ header{
     align-content: center;
     text-transform: uppercase;
     z-index: 999;
-    background-color: #00011e 
+    background-color: #00011e;
+    margin-bottom: 20px;
 }
 .scrolled{
     background-color: #00011e !important;
@@ -15,9 +16,8 @@ header{
 .reg{
     font-size: 0.8rem !important;
     background-color: rgb(100, 0, 155);
-    transform: rotate(-2deg);
     padding: 15px;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+    border-radius: 25px;
 }
 .logo img{
    width: 15rem;
@@ -52,23 +52,24 @@ a{
 @media(max-width:580px){
     header{
         justify-content: space-between;
+
     }
     .logo img{
         width: 12rem;
         height: 45px;
      }
      .reg{
-        font-size: 0.7rem !important;
+        font-size: 0.6rem !important;
         padding: 13px;
     }
 }
 @media(max-width:420px){
     .logo img{
-        width: 10rem !important;
-        height: 40px !important;
+        width: 8rem !important;
+        height: 30px !important;
      }
      .reg{
-        font-size: 0.6rem !important;
+        font-size: 0.5rem !important;
         padding: 8px;
     }
 }
@@ -78,7 +79,7 @@ a{
         height: 25px !important;
      }
      .reg{
-        font-size: 0.5rem !important;
+        font-size: 0.4rem !important;
         padding: 6px;
     }
 }

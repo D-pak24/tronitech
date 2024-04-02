@@ -9,8 +9,7 @@ function About() {
   const [expired, setExpired] = useState(false);
 
   useEffect(() => {
-    // Target date (April 13th, 2024)
-    const targetDate = new Date("2024-04-13T00:00:00");
+    const targetDate = new Date("2024-04-12T00:00:00");
 
     const interval = setInterval(() => {
       const now = new Date().getTime();
@@ -37,11 +36,12 @@ function About() {
 
   return (
     <>
+    <div className="aboutContainer">
       <h2 className="aboutus">About Us</h2>
       <p className="aboutpara">
-        We are thrilled to extend our invitation to all of you for Agni College of Technology's Symposium organized by Electronics and Communication Engineering (ECE), "TRONIXTECH," scheduled for April 13th. Our aim is to cultivate a culture of knowledge exchange, collaboration, and innovation. Our objective is to delve into emerging trends, exchange invaluable insights, and tackle the pressing challenges within our industry. Together, let's pave the way forward, igniting positive transformation and progress. We urge you to actively engage and seize the opportunity to connect with fellow enthusiasts who share your zeal and commitment. We anticipate that "TRONIXTECH" will be an event filled with both enlightenment and inspiration. Come, join us, and let's embark on this exhilarating journey of exploration and discovery together!
+        We are thrilled to extend our invitation to all of you for Agni College of Technology's Symposium organized by Electronics and Communication Engineering (ECE), "TRONIX TECHS'24," scheduled for April 13th. Our aim is to cultivate a culture of knowledge exchange, collaboration, and innovation. Our objective is to delve into emerging trends, exchange invaluable insights, and tackle the pressing challenges within our industry. Together, let's pave the way forward, igniting positive transformation and progress. We urge you to actively engage and seize the opportunity to connect with fellow enthusiasts who share your zeal and commitment. We anticipate that "TRONIX TECHS'24" will be an event filled with both enlightenment and inspiration. Come, join us, and let's embark on this exhilarating journey of exploration and discovery together!
       </p>
-      <div className="markdate">13th April 2024</div>
+      <div className="markdate">12th April 2024</div>
       <h5>Mark The Date</h5>
       <div className="countdown">
         <h4>Countdown</h4>
@@ -52,6 +52,7 @@ function About() {
             {days}D {hours}H {minutes}M {seconds}S
           </div>
         )}
+      </div>
       </div>
     </>
   );
