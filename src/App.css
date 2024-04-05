@@ -193,9 +193,14 @@ html {
 }
 @media(max-width:580px){
   .left , .Title,.titleContent{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    max-width: 340px;
     font-optical-sizing: auto;
   }
+  .left{
+  margin-top: 15px;
+  }
+  
   .mainContent{
   background-image: url("./assets/mobcircuitbg.jpg");
   }

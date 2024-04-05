@@ -76,6 +76,9 @@ h5 {
     letter-spacing: normal;
     font-size: 0.7rem;
   }
+  .aboutContainer{
+    padding: 45px 5px;
+  }
   .markdate {
     padding: 12px 6px;
     letter-spacing: 1px;
@@ -97,9 +100,11 @@ h5{
   .aboutus {
     font-size: 1.2rem;
   }
-
+.aboutContainer{
+  padding: 30px;
+}
   .aboutpara {
-    font-size: 0.55rem;
+    font-size: 0.45rem;
     letter-spacing: normal;
   }
   .countdown {
@@ -114,13 +119,13 @@ h5{
     font-size: 0.7rem;
 }
 }
-@media(max-width:360px){
+@media(max-width:380px){
     .aboutus {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
       }
     
       .aboutpara {
-        font-size: 0.49rem;
+        font-size: 0.45rem;
         letter-spacing: normal;
       }
       .countdown {

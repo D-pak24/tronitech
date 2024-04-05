@@ -45,16 +45,18 @@ function Events(props) {
           <figure className="techbg">
             <img src={props.img1} alt="Technical" className="technicalimg" />
           </figure>
-          <h5>Technical Events</h5>
           </Link>
+          <h5>Technical Events</h5>
+          
         </div>
         <div className="nontechnical">
           <Link to={"/nontechnical"}>
           <figure className="nontechbg">
             <img src={props.img2} alt="Technical" className="technicalimg" />
           </figure>
-          <h5>Non Technical Events</h5>
           </Link>
+          <h5>Non Technical Events</h5>
+          
         </div>
       </div>
     </>
