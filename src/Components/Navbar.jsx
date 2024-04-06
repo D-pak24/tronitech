@@ -6,12 +6,10 @@ function Navbar(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    console.log("clic")
     setIsOpen(!isOpen);
   };
 
   const closeMenu = () => {
-    console.log("open")
     setIsOpen(false);
   };
 
@@ -21,14 +19,14 @@ function Navbar(props) {
 
   return (
     <nav className="nav">
-      <input type="checkbox" id="nav-check" />
+      <input type="checkbox" id="nav-check" checked={isOpen} />
       <div className="nav-header">
         <div className="logo">
           <img src={props.img} alt="logo" />
         </div>
       </div>
-      <div className="nav-btn "onClick={toggleMenu}>
-        <label htmlFor="nav-check" >
+      <div className="nav-btn" onClick={toggleMenu}>
+        <label htmlFor="nav-check">
           <span></span>
           <span></span>
           <span></span>

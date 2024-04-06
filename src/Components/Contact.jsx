@@ -7,10 +7,10 @@ function Contact() {
       <div className="contactHeader">Contact Us</div>
       <div className="contactDetails">
         <h4 className="conHeaders">Convenor</h4>
-        <h4>Mrs.Dr.N.V.S.Shree Rathna Lakshmi</h4>
+        <h4>Dr.N.V.S.Shree Rathna Lakshmi</h4>
         <div className="line"></div>
         <h4  className="conHeaders">Faculty Co-ordinaters</h4>
-        <h4>Mrs.Dr.Maheshwari</h4>
+        <h4>Mrs.D.Maheshwari</h4>
         <div className="line"></div>
         <h4 className="conHeaders">Student Co-ordinaters</h4>
         <h4>President - Sri Rakshaga / 86374 97709</h4>

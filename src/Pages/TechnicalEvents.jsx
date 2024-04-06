@@ -22,7 +22,7 @@ function TechnicalEvents() {
             enthusiasts unite to explore, learn and connect. ⚡️🌟
           </p>
           <Link to={"/events/paperpresentation"}>  <div className="learnMore">
-                Learn More
+                Dive Deeper
             </div></Link>
         </div>
         
@@ -46,7 +46,7 @@ function TechnicalEvents() {
             enthusiasm, camaraderie, and many “aha” moments. See you soon! 👩‍💻👨‍💻
           </p>
           <Link to={"/events/errorcode"}>  <div className="learnMore">
-                Learn More
+                Dive Deeper
             </div></Link>
         </div>
 
@@ -69,7 +69,7 @@ function TechnicalEvents() {
             and the satisfaction of conquering challenges. See you there!" 💡
           </p>
           <Link to={"/events/circuitdebug"}>  <div className="learnMore">
-                Learn More
+                Dive Deeper
             </div></Link>
         </div>
 
@@ -92,7 +92,7 @@ function TechnicalEvents() {
             Are you ready to prove your mental mettle?
           </p>
           <Link to={"/events/brainybowlz"}>  <div className="learnMore">
-                Learn More
+                Dive Deeper
             </div></Link>
         </div>
 
@@ -112,7 +112,7 @@ function TechnicalEvents() {
             also implementable in real-world scenarios.
           </p>
           <Link to={"/events/thinkonit"}>  <div className="learnMore">
-                Learn More
+                Dive Deeper
             </div></Link>
         </div>
 

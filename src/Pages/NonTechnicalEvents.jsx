@@ -1,4 +1,5 @@
 import "./TechnicalEvents.css";
+import { Link } from "react-router-dom";
 import errorcode from "./eventimgs/error_code.jpg";
 import "../Components/About.css";
 function NonTechnicalEvents() {
@@ -23,7 +24,7 @@ function NonTechnicalEvents() {
               emerge victorious in your chosen battleground.
             </p>
             <Link to={"/events/boxcricketORfreefire"}>
-              <div className="learnMore">Learn More</div>
+              <div className="learnMore">Dive Deeper</div>
             </Link>
           </div>
         </div>
@@ -42,7 +43,7 @@ function NonTechnicalEvents() {
               while also providing entertainment and inspiration to the audience
             </p>
             <Link to={"/events/talentia"}>
-              <div className="learnMore">Learn More</div>
+              <div className="learnMore">Dive Deeper</div>
             </Link>
           </div>
         </div>
@@ -64,7 +65,7 @@ function NonTechnicalEvents() {
               tasked with capturing compelling imageswithin a limited timeframe.
             </p>
             <Link to={"/events/memecreationORonspotphotography"}>
-              <div className="learnMore">Learn More</div>
+              <div className="learnMore">Dive Deeper</div>
             </Link>
           </div>
         </div>

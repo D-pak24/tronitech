@@ -16,9 +16,11 @@
   z-index: 99999;
   height: 50px;
 }
+
 .nav > .nav-header {
   flex: 0.95;
 }
+
 .reg {
   padding: 15px;
   border-radius: 25px;
@@ -36,6 +38,7 @@
   font-weight: 700;
   list-style: none;
 }
+
 li:hover {
   cursor: pointer;
   transition: color 0.3s ease-in-out;
@@ -103,10 +106,12 @@ li:hover {
 
   .nav > #nav-check:checked ~ .nav-list {
     display: flex;
-    height: calc(75vh - 50px);
+    height: calc(68vh - 50px);
     font-size: 0.8rem;
+    border-bottom: 1px solid rgb(62, 26, 82);
   }
 }
+
 @media (max-width: 580px) {
   header {
     justify-content: space-between;
@@ -122,6 +127,7 @@ li:hover {
     font-size: 0.8rem;
   }
 }
+
 @media (max-width: 420px) {
   header {
     padding: 5px;
@@ -131,6 +137,7 @@ li:hover {
     height: 36px !important;
   }
 }
+
 @media (max-width: 340px) {
   .logo img {
     width: 9rem !important;

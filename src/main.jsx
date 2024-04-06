@@ -1,7 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import App from './App.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Register from './Pages/Register';
 import TechnicalEvents from './Pages/TechnicalEvents.jsx';
 import NonTechnicalEvents from './Pages/NonTechnicalEvents.jsx';
@@ -13,13 +12,24 @@ import ErrorCode from './Pages/ErrorCode.jsx';
 import CircuitDebug from './Pages/CircuitDebug.jsx';
 import BrainyBowlz from './Pages/BrainyBowl.jsx';
 import ThinkonIt from './Pages/ThinkOnit.jsx';
+import App from './App.jsx';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-
     <BrowserRouter>
-    <Navbar img={AgniLogo} />
+      <Navbar img={AgniLogo} />
+      <ScrollToTop />
       <Routes>
-
         <Route path="/" element={<App />} />
         <Route path="/register" element={<Register />} />
         <Route path="/technical" element={<TechnicalEvents />} />
@@ -30,9 +40,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/events/circuitdebug" element={<CircuitDebug/>}/>
         <Route path="/events/brainybowlz" element={<BrainyBowlz/>}/>
         <Route path="/events/thinkonit" element={<ThinkonIt/>}/>
-        <Route path="/events/boxcricketORfreefire" element={<ThinkonIt/>}/>
-        <Route path="/events/talentia" element={<ThinkonIt/>}/>
-        <Route path="/events/memecreationORonspotphotography" element={<ThinkonIt/>}/>
+        {/* Other routes go here */}
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
