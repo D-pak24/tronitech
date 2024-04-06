@@ -1,30 +1,58 @@
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import "./Navbar.css";
 
 function Navbar(props) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    console.log("clic")
+    setIsOpen(!isOpen);
+  };
+
+  const closeMenu = () => {
+    console.log("open")
+    setIsOpen(false);
+  };
+
+  const handleLinkClick = () => {
+    closeMenu();
+  };
+
   return (
-    <header>
-      <div className="logoContainer">
-        <h2 className="logo">
+    <nav className="nav">
+      <input type="checkbox" id="nav-check" />
+      <div className="nav-header">
+        <div className="logo">
           <img src={props.img} alt="logo" />
-        </h2>
+        </div>
       </div>
-      <ul className="navList">
-        <Link to={'/register'}>
-          <li className="navElements reg">Register</li>
-        </Link>
-        {/* <HashLink smooth to={"#events"} >
-          <li className="navElements">Events</li>
-        </HashLink >
-        <HashLink smooth to={"#events"}>
-          <li className="navElements">About</li>
-        </HashLink>
-        <HashLink smooth to={"#contact"} >
-          <li className="navElements">Contact</li>
-        </HashLink > */}
+      <div className="nav-btn "onClick={toggleMenu}>
+        <label htmlFor="nav-check" >
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+      </div>
+      
+      <ul className={isOpen ? "nav-list open" : "nav-list"}>
+        <li className="reg">
+          <Link to={"/register"} onClick={handleLinkClick}>Register</Link>
+        </li>
+        <li>
+          <Link to={"/"} onClick={handleLinkClick}>Home</Link>
+        </li>
+        <li>
+          <Link to={"/about"} onClick={handleLinkClick}>About</Link>
+        </li>
+        <li>
+          <Link to={"/technical"} onClick={handleLinkClick}>Technical Events</Link>
+        </li>
+        <li>
+          <Link to={"/nontechnical"} onClick={handleLinkClick}>Non-Technical Events</Link>
+        </li>
       </ul>
-    </header>
+    </nav>
   );
 }
 
