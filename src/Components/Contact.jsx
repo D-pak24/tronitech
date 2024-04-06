@@ -28,7 +28,7 @@ function Contact() {
       <div className="footer">
         <div className="tronixtech">TRONIXTECH ' 24</div>
         <div className="email">
-          <div className="email">Email :</div> <span className="mail">tronixtechs@gmail.com</span>
+          <div className="email"> <span className="mail">tronixtechs@gmail.com</span></div>
         </div>
       </div>
     </div>
