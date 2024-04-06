@@ -9,10 +9,10 @@ function Contact() {
         <h4 className="conHeaders">Convenor</h4>
         <h4>Dr.N.V.S.Shree Rathna Lakshmi</h4>
         <div className="line"></div>
-        <h4  className="conHeaders">Faculty Co-ordinaters</h4>
+        <h4  className="conHeaders">Faculty Co-ordinator</h4>
         <h4>Mrs.D.Maheshwari</h4>
         <div className="line"></div>
-        <h4 className="conHeaders">Student Co-ordinaters</h4>
+        <h4 className="conHeaders">Student Co-ordinators</h4>
         <h4>President - Sri Rakshaga / 86374 97709</h4>
         <h4>Vice President - Venkata Krishnan / 6383168127</h4>
         <h4>Secretary - Premalatha / 89395 62666</h4>

@@ -13,6 +13,7 @@ import CircuitDebug from './Pages/CircuitDebug.jsx';
 import BrainyBowlz from './Pages/BrainyBowl.jsx';
 import ThinkonIt from './Pages/ThinkOnit.jsx';
 import App from './App.jsx';
+import MemeCreationOrOnSpotPhotography from './Pages/MemeCreationAndOnSpotDrawing.jsx';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -24,24 +25,49 @@ function ScrollToTop() {
   return null;
 }
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Navbar img={AgniLogo} />
-      <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/register" element={<Register />} />
-        <Route path="/technical" element={<TechnicalEvents />} />
-        <Route path="/nontechnical" element={<NonTechnicalEvents />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/events/paperpresentation" element={<PaperPresentation/>}/>
-        <Route path="/events/errorcode" element={<ErrorCode/>}/>
-        <Route path="/events/circuitdebug" element={<CircuitDebug/>}/>
-        <Route path="/events/brainybowlz" element={<BrainyBowlz/>}/>
-        <Route path="/events/thinkonit" element={<ThinkonIt/>}/>
-        {/* Other routes go here */}
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode>
-);
+function AppWithScrollToTop() {
+  // Prevent access to DevTools
+  useEffect(() => {
+    const preventDevTools = (e) => {
+      if ((e.ctrlKey && e.shiftKey && e.key === 'I' && e.ctrlKey && e.keyCode == 85) || (e.key === 'F12')) {
+        e.preventDefault();
+      }
+    };
+
+    const preventContextMenu = (e) => {
+      e.preventDefault();
+    };
+
+    window.addEventListener('keydown', preventDevTools);
+    window.addEventListener('contextmenu', preventContextMenu);
+
+    return () => {
+      window.removeEventListener('keydown', preventDevTools);
+      window.removeEventListener('contextmenu', preventContextMenu);
+    };
+  }, []);
+
+  return (
+    <React.StrictMode>
+      <BrowserRouter>
+        <Navbar img={AgniLogo} />
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<App />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/technical" element={<TechnicalEvents />} />
+          <Route path="/nontechnical" element={<NonTechnicalEvents />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/events/paperpresentation" element={<PaperPresentation/>}/>
+          <Route path="/events/errorcode" element={<ErrorCode/>}/>
+          <Route path="/events/circuitdebug" element={<CircuitDebug/>}/>
+          <Route path="/events/brainybowlz" element={<BrainyBowlz/>}/>
+          <Route path="/events/thinkonit" element={<ThinkonIt/>}/>
+          <Route path="/events/memecreationORonspotphotography" element={<MemeCreationOrOnSpotPhotography/>}/>
+        </Routes>
+      </BrowserRouter>
+    </React.StrictMode>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<AppWithScrollToTop />);

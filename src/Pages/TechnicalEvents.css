@@ -3,7 +3,7 @@
     height: fit-content;
     display: flex;
     flex-direction: column;
-    font-family: "Rubic", sans-serif;
+    font-family: "Reddit Mono", monospace;
     align-content: center;
     justify-content: center;
     overflow: hidden;
@@ -17,6 +17,13 @@ a{
     align-items: center;
     justify-self: center;
 
+}
+.dev{
+    font-size: 0.15rem;
+}
+.map{
+    display: flex;
+flex-direction: column;
 }
 .eventImgs img{
     width: 600px;
@@ -127,6 +134,10 @@ flex-direction: column;
     .eventImgs img{
         width: 350px;
         height: 350px;
+    }
+    .map{
+        display: flex
+        flex
     }
     .map iframe{
         width: 330px;
