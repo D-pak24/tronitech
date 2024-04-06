@@ -14,7 +14,8 @@ import BrainyBowlz from './Pages/BrainyBowl.jsx';
 import ThinkonIt from './Pages/ThinkOnit.jsx';
 import App from './App.jsx';
 import MemeCreationOrOnSpotPhotography from './Pages/MemeCreationAndOnSpotDrawing.jsx';
-
+import BoxCricketAndFreeFire from "./Pages/BoxCricketndFreeFire.jsx";
+import Talentia from "./Pages/Talentia.jsx";
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -63,6 +64,8 @@ function AppWithScrollToTop() {
           <Route path="/events/circuitdebug" element={<CircuitDebug/>}/>
           <Route path="/events/brainybowlz" element={<BrainyBowlz/>}/>
           <Route path="/events/thinkonit" element={<ThinkonIt/>}/>
+          <Route path="/events/boxcricketORfreefire" element={<BoxCricketAndFreeFire/>}/>
+          <Route path="/events/talentia" element={<Talentia/>}/>
           <Route path="/events/memecreationORonspotphotography" element={<MemeCreationOrOnSpotPhotography/>}/>
         </Routes>
       </BrowserRouter>

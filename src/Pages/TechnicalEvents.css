@@ -19,7 +19,7 @@ a{
 
 }
 .dev{
-    font-size: 0.15rem;
+    font-size: 0.2rem;
 }
 .map{
     display: flex;
@@ -132,8 +132,9 @@ flex-direction: column;
         height: 350px;
     }
     .eventImgs img{
-        width: 350px;
-        height: 350px;
+        width:470px;
+    
+        height: 360px;
     }
     .map{
         display: flex
