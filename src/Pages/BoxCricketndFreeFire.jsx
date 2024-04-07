@@ -1,13 +1,13 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
-import errorcode from "./eventimgs/error_code.jpg";
+import cricket_ff from "./eventimgs/cricket_ff.jpg";
 function BoxCricketAndFreeFire() {
   return (
     <>
       <div className="technicaleventsCon">
         <div className="eventss">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={cricket_ff} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">BoxCricket</div>
@@ -78,7 +78,7 @@ function BoxCricketAndFreeFire() {
         <div className="or">OR</div>
         <div className="eventss">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={cricket_ff} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">Free Fire</div>

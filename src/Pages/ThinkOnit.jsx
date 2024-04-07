@@ -1,13 +1,13 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
-import errorcode from "./eventimgs/error_code.jpg";
+import thinkonit from "./eventimgs/thinkonit.jpg";
 function ThinkonIt() {
   return (
     <>
       <div className="technicaleventsCon">
         <div className="eventss">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={thinkonit} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">Think on it</div>

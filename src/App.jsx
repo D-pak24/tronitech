@@ -8,7 +8,7 @@ import  Nontechnical  from "./assets/astronontech.png";
 import Technical from "./assets/astrotech.png";
 
 import Contact from "./Components/Contact";
-import AgniLogo from "./assets/AGNI-LOGO-AUTO.png";
+
 
 
 function App() {
@@ -16,12 +16,13 @@ function App() {
     <>
 
       <div className="mainContainer">
-      <Navbar img={AgniLogo} />
+      
         <div id="home">
           <div className="mainContent">
             <div className="right">
               <h2 className="tronix">TRONIX TECHS</h2>
               <div className="2k24">2024</div>
+              <div className="dept">Department Of electronics and communication engineering</div>
             </div>
             <div className="left">
               <div className="Title">Get Ready!</div>

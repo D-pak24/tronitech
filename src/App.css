@@ -76,7 +76,10 @@ html {
   font-style: italic;
   font-size: 1.3rem;
 }
-
+.dept{
+  margin-top: 50px;
+  font-family: "Reddit Mono",sans-serif;
+}
 .titleContent {
   font-size: 3rem;
   max-width: 400px;

@@ -1,6 +1,9 @@
 import React from "react";
 import "./TechnicalEvents.css";
 import errorcode from "./eventimgs/error_code.jpg";
+import circuitdebug from "./eventimgs/circuitdebug.jpg";
+import thinkonit from "./eventimgs/thinkonit.jpg";
+
 import { Link } from "react-router-dom";
 function TechnicalEvents() {
   return (
@@ -53,7 +56,7 @@ function TechnicalEvents() {
       </div>
       <div className="events">
         <div className="eventImg">
-          <img src={errorcode} alt="eventImage" />
+          <img src={circuitdebug} alt="eventImage" />
         </div>
         <div className="eventDes">
           <div className="eventHeader">Cicuit Debugging ⚡️</div>
@@ -99,7 +102,7 @@ function TechnicalEvents() {
       </div>
       <div className="events">
         <div className="eventImg">
-          <img src={errorcode} alt="eventImage" />
+          <img src={thinkonit} alt="eventImage" />
         </div>
         <div className="eventDes">
           <div className="eventHeader">Think on it</div>

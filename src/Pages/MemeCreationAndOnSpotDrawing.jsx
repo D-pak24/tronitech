@@ -1,13 +1,14 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
-import errorcode from "./eventimgs/error_code.jpg";
+import memecreation from "./eventimgs/memecreation.jpg";
+import onspot from "./eventimgs/onspot.jpg";
 function MemeCreationOrOnSpotPhotography() {
   return (
     <>
       <div className="technicaleventsCon">
         <div className="eventss">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={memecreation} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">MemeCreation</div>
@@ -41,7 +42,7 @@ function MemeCreationOrOnSpotPhotography() {
         <div className="or">OR</div>
         <div className="eventss">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={onspot} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">On Spot Photography</div>

@@ -1,6 +1,11 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import errorcode from "./eventimgs/error_code.jpg";
+import talentia from "./eventimgs/talentia.jpg";
+import cricket_ff from "./eventimgs/cricket_ff.jpg";
+import memecreation from "./eventimgs/memecreation.jpg";
+import onspot from "./eventimgs/onspot.jpg";
+
 import "../Components/About.css";
 function NonTechnicalEvents() {
   return (
@@ -8,7 +13,7 @@ function NonTechnicalEvents() {
       <div className="technicaleventsCon">
         <div className="events">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={cricket_ff} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">Box Cricket</div>
@@ -30,7 +35,7 @@ function NonTechnicalEvents() {
         </div>
         <div className="events">
           <div className="eventImg">
-            <img src={errorcode} alt="errorcodeBanner" id="errorcodeimg" />
+            <img src={talentia} alt="errorcodeBanner" id="errorcodeimg" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">Talentia</div>
@@ -49,7 +54,7 @@ function NonTechnicalEvents() {
         </div>
         <div className="events">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={memecreation} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">Meme Creation</div>

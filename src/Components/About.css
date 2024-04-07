@@ -15,7 +15,7 @@
   letter-spacing: 1px;
   font-optical-sizing: auto;
   line-height: 25px;
-  color: rgba(255, 255, 255, 0.6);
+  color:#fff ;
   padding: 15px;
   font-size: 0.9rem;
   font-weight: 700;
@@ -104,7 +104,7 @@ h5{
   padding: 30px;
 }
   .aboutpara {
-    font-size: 0.45rem;
+    font-size: 0.6rem;
     letter-spacing: normal;
   }
   .countdown {
@@ -125,7 +125,7 @@ h5{
       }
     
       .aboutpara {
-        font-size: 0.45rem;
+        font-size: 0.6rem;
         letter-spacing: normal;
       }
       .countdown {

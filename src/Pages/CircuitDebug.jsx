@@ -1,13 +1,13 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
-import errorcode from "./eventimgs/error_code.jpg";
+import circuitdebug from "./eventimgs/circuitdebug.jpg";
 function CircuitDebug() {
   return (
     <>
       <div className="technicaleventsCon">
         <div className="eventss">
           <div className="eventImg">
-            <img src={errorcode} alt="eventImage" />
+            <img src={circuitdebug} alt="eventImage" />
           </div>
           <div className="eventDes">
             <div className="eventHeader">Circuit Debug</div>
