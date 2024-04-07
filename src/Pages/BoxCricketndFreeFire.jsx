@@ -71,7 +71,7 @@ function BoxCricketAndFreeFire() {
                 </li>
               </ul>
             </div>
-            <Link to={"/register"}>
+            <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScNGaj5s7bhlLy0rz4hkZZFX9Q4MQmnwrw384r6WNowc_-agw/viewform?usp=sf_linkregister"}>
               <div className="learnMore">Register</div>
             </Link>
           </div>
@@ -103,7 +103,7 @@ function BoxCricketAndFreeFire() {
               </ul>
             </div>
 
-            <Link to={"/register"}>
+            <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScNGaj5s7bhlLy0rz4hkZZFX9Q4MQmnwrw384r6WNowc_-agw/viewform?usp=sf_link"}>
               <div className="learnMore">Register</div>
             </Link>
           </div>

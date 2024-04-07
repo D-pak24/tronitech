@@ -54,7 +54,6 @@ function AppWithScrollToTop() {
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<App />} />
-          <Route path="/register" element={<Register />} />
           <Route path="/technical" element={<TechnicalEvents />} />
           <Route path="/nontechnical" element={<NonTechnicalEvents />} />
           <Route path="/about" element={<AboutPage />} />

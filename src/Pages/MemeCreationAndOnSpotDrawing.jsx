@@ -35,7 +35,7 @@ function MemeCreationOrOnSpotPhotography() {
                 <li>Time given only 30 minutes to prepare your meme.</li>
               </ul>
             </div>
-            <Link to={"/register"}>
+            <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScNGaj5s7bhlLy0rz4hkZZFX9Q4MQmnwrw384r6WNowc_-agw/viewform?usp=sf_link"}>
               <div className="learnMore">Register</div>
             </Link>
           </div>
@@ -88,7 +88,7 @@ function MemeCreationOrOnSpotPhotography() {
               </ul>
             </div>
 
-            <Link to={"/register"}>
+            <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScNGaj5s7bhlLy0rz4hkZZFX9Q4MQmnwrw384r6WNowc_-agw/viewform?usp=sf_link"}>
               <div className="learnMore">Register</div>
             </Link>
           </div>

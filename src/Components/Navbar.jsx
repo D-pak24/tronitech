@@ -32,22 +32,32 @@ function Navbar(props) {
           <span></span>
         </label>
       </div>
-      
+
       <ul className={isOpen ? "nav-list open" : "nav-list"}>
         <li className="reg">
-          <Link to={"/register"} onClick={handleLinkClick}>Register</Link>
+          <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScNGaj5s7bhlLy0rz4hkZZFX9Q4MQmnwrw384r6WNowc_-agw/viewform?usp=sf_link"} onClick={handleLinkClick}>
+            Register
+          </Link>
         </li>
         <li>
-          <Link to={"/"} onClick={handleLinkClick}>Home</Link>
+          <Link to={"/"} onClick={handleLinkClick}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to={"/about"} onClick={handleLinkClick}>About</Link>
+          <Link to={"/about"} onClick={handleLinkClick}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to={"/technical"} onClick={handleLinkClick}>Technical Events</Link>
+          <Link to={"/technical"} onClick={handleLinkClick}>
+            Technical Events
+          </Link>
         </li>
         <li>
-          <Link to={"/nontechnical"} onClick={handleLinkClick}>Non-Technical Events</Link>
+          <Link to={"/nontechnical"} onClick={handleLinkClick}>
+            Non-Technical Events
+          </Link>
         </li>
       </ul>
     </nav>

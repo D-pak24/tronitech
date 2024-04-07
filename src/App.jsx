@@ -25,7 +25,7 @@ function App() {
               <div className="Title">Get Ready!</div>
               <div className="titleContent">Symposium Time let's dive in</div>
               {/* <p>Venue : Agni College Of Technology</p> */}
-              <Link to={"/register"}>
+              <Link to={"https://docs.google.com/forms/d/e/1FAIpQLScNGaj5s7bhlLy0rz4hkZZFX9Q4MQmnwrw384r6WNowc_-agw/viewform?usp=sf_link"}>
                 <button className="mainBtn">Register Now</button>
               </Link>
             </div>
