@@ -27,25 +27,25 @@ function ScrollToTop() {
 }
 
 function AppWithScrollToTop() {
-  // useEffect(() => {
-  //   const preventDevTools = (e) => {
-  //     if ((e.ctrlKey && e.shiftKey && e.key === 'I' && e.ctrlKey && e.keyCode == 85) || (e.key === 'F12')) {
-  //       e.preventDefault();
-  //     }
-  //   };
+  useEffect(() => {
+    const preventDevTools = (e) => {
+      if ((e.ctrlKey && e.shiftKey && e.key === 'I' && e.ctrlKey && e.keyCode == 85) || (e.key === 'F12')) {
+        e.preventDefault();
+      }
+    };
 
-  //   const preventContextMenu = (e) => {
-  //     e.preventDefault();
-  //   };
+    const preventContextMenu = (e) => {
+      e.preventDefault();
+    };
 
-  //   window.addEventListener('keydown', preventDevTools);
-  //   window.addEventListener('contextmenu', preventContextMenu);
+    window.addEventListener('keydown', preventDevTools);
+    window.addEventListener('contextmenu', preventContextMenu);
 
-  //   return () => {
-  //     window.removeEventListener('keydown', preventDevTools);
-  //     window.removeEventListener('contextmenu', preventContextMenu);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener('keydown', preventDevTools);
+      window.removeEventListener('contextmenu', preventContextMenu);
+    };
+  }, []);
 
   return (
     <React.StrictMode>
