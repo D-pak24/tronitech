@@ -1,6 +1,7 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import circuitdebug from "./eventimgs/circuitdebug.jpg";
+
 function CircuitDebug() {
   return (
     <>

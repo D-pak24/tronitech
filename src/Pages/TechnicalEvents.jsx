@@ -1,7 +1,9 @@
 import React from "react";
 import "./TechnicalEvents.css";
+import paperpresentation from "./eventimgs/paperpresentation.jpg";
 import errorcode from "./eventimgs/error_code.jpg";
 import circuitdebug from "./eventimgs/circuitdebug.jpg";
+import brainybowlz from "./eventimgs/brainybowlz.jpg";
 import thinkonit from "./eventimgs/thinkonit.jpg";
 
 import { Link } from "react-router-dom";
@@ -10,7 +12,7 @@ function TechnicalEvents() {
     <div className="technicaleventsCon">
       <div className="events">
         <div className="eventImg">
-          <img src={errorcode} alt="eventImage" />
+          <img src={paperpresentation} alt="eventImage" />
         </div>
         <div className="eventDes">
           <div className="eventHeader">Paper Presentation 📝</div>
@@ -79,7 +81,7 @@ function TechnicalEvents() {
       </div>
       <div className="events">
         <div className="eventImg">
-          <img src={errorcode} alt="eventImage" />
+          <img src={brainybowlz} alt="eventImage" />
         </div>
         <div className="eventDes">
           <div className="eventHeader">Brainly bowl [ quiz ]</div>

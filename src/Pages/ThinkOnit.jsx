@@ -1,6 +1,7 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import thinkonit from "./eventimgs/thinkonit.jpg";
+
 function ThinkonIt() {
   return (
     <>

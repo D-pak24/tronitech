@@ -1,4 +1,4 @@
-.aboutContainer{
+.aboutContainer {
   height: fit-content;
   padding: 20px;
   display: flex;
@@ -7,7 +7,6 @@
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
-
 }
 
 .aboutpara {
@@ -15,7 +14,7 @@
   letter-spacing: 1px;
   font-optical-sizing: auto;
   line-height: 25px;
-  color:#fff ;
+  color: #fff;
   padding: 15px;
   font-size: 0.9rem;
   font-weight: 700;
@@ -65,8 +64,7 @@ h5 {
     padding: 17px 8px;
     letter-spacing: 3px;
     font-size: 2rem;
-}
-
+  }
 }
 @media (max-width: 580px) {
   .aboutus {
@@ -76,7 +74,7 @@ h5 {
     letter-spacing: normal;
     font-size: 0.7rem;
   }
-  .aboutContainer{
+  .aboutContainer {
     padding: 45px 5px;
   }
   .markdate {
@@ -88,21 +86,21 @@ h5 {
     padding: 15px 7px;
     letter-spacing: 2px;
     font-size: 1.5rem;
-}
-.timer{
+  }
+  .timer {
     font-size: 0.9rem;
-}
-h5{
+  }
+  h5 {
     font-size: 0.9rem;
-}
+  }
 }
 @media (max-width: 400px) {
   .aboutus {
     font-size: 1.2rem;
   }
-.aboutContainer{
-  padding: 30px;
-}
+  .aboutContainer {
+    padding: 30px;
+  }
   .aboutpara {
     font-size: 0.6rem;
     letter-spacing: normal;
@@ -111,32 +109,32 @@ h5{
     padding: 12px 6px;
     letter-spacing: 2px;
     font-size: 1rem;
-}
-.timer{
-    font-size: 0.8rem;
-}
-h5{
-    font-size: 0.7rem;
-}
-}
-@media(max-width:380px){
-    .aboutus {
-        font-size: 1.2rem;
-      }
-    
-      .aboutpara {
-        font-size: 0.6rem;
-        letter-spacing: normal;
-      }
-      .countdown {
-        padding: 19px 5px;
-        letter-spacing: 2px;
-        font-size: 0.8rem;
-    }
-    .timer{
-        font-size: 0.7rem;
-    }
-    h5{
-        font-size: 0.6rem;
-    }
   }
+  .timer {
+    font-size: 0.8rem;
+  }
+  h5 {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 380px) {
+  .aboutus {
+    font-size: 1.2rem;
+  }
+
+  .aboutpara {
+    font-size: 0.6rem;
+    letter-spacing: normal;
+  }
+  .countdown {
+    padding: 19px 5px;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+  }
+  .timer {
+    font-size: 0.7rem;
+  }
+  h5 {
+    font-size: 0.6rem;
+  }
+}

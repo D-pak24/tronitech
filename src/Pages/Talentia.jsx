@@ -1,6 +1,7 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import talentia from "./eventimgs/talentia.jpg";
+
 function Talentia() {
   return (
     <>

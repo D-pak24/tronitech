@@ -1,6 +1,7 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import errorcode from "./eventimgs/error_code.jpg";
+
 function ErrorCode() {
   return (
     <>
@@ -42,8 +43,8 @@ function ErrorCode() {
                 </li>
                 <li>Only 8 minutes will be provided</li>
                 <li>
-                Disclaimer: If any malpractice is noticed by our team, that team will be
-                  disqualified
+                  Disclaimer: If any malpractice is noticed by our team, that
+                  team will be disqualified
                 </li>
               </ul>
             </div>

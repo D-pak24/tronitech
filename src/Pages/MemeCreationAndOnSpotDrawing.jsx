@@ -2,6 +2,7 @@ import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import memecreation from "./eventimgs/memecreation.jpg";
 import onspot from "./eventimgs/onspot.jpg";
+
 function MemeCreationOrOnSpotPhotography() {
   return (
     <>

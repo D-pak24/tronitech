@@ -1,178 +1,175 @@
 .technicaleventsCon {
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    font-family: "Reddit Mono", monospace;
-    align-content: center;
-    justify-content: center;
-    overflow: hidden;
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-family: "Reddit Mono", monospace;
+  align-content: center;
+  justify-content: center;
+  overflow: hidden;
 }
-a{
-    color: #fff;
-    text-decoration: none;
+a {
+  color: #fff;
+  text-decoration: none;
 }
-.footer{
-    display: flex;
-    align-items: center;
-    justify-self: center;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+.dev {
+  font-size: 0.25rem;
+}
+.map {
+  display: flex;
+  flex-direction: column;
+}
+.eventImgs img {
+  width: 600px;
+  height: 400px;
+}
+.aboutpara ul li {
+  padding: 10px 0px;
+}
+.eventss .aboutpara {
+  width: fit-content;
+  font-optical-sizing: auto;
+  flex-direction: column;
+}
 
+.round {
+  color: #fff;
 }
-.dev{
-    font-size: 0.25rem;
+.or {
+  display: block;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 0px;
 }
-.map{
-    display: flex;
-flex-direction: column;
+.learnMore {
+  width: fit-content;
+  position: relative;
+  font-family: inherit;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 20px;
+  font-size: 0.7rem;
+  border-radius: 25px;
+  background-color: rgb(100, 0, 155);
 }
-.eventImgs img{
-    width: 600px;
-    height: 400px;
+.learnMore:hover {
+  cursor: pointer;
+  background-color: rgb(115, 46, 152);
 }
-.aboutpara ul li{
-    padding: 10px 0px;
+.events {
+  margin: 100px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-.eventss .aboutpara{
-    width:fit-content;
-   font-optical-sizing: auto;
-    flex-direction: column;
+.eventss {
+  margin: 100px 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
-.round{
-    color: #fff;
+.eventImg img {
+  transition: transform 0.5s ease-in-out;
+  width: 350px;
+  height: 400px;
 }
-.or{
-    display: block;
-    font-style: italic;
-    text-align: center;
-    padding: 20px 0px;
+.eventHeader {
+  padding: 5px;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
-.learnMore{
+.technicaleventsCon .aboutpara {
+  text-align: start !important;
+}
+.line {
+  left: -0.1em;
+  width: 100%;
+  margin: 20px 0px;
+  height: 2px;
+  background-color: rgb(62, 26, 82);
+}
+small {
+  font-style: italic;
+  padding: 5px;
+  font-size: 0.8rem;
+  color: grey;
+}
+.eventDes {
+  padding: 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-optical-sizing: auto;
+  max-width: 500px;
+}
+
+@media (max-width: 690px) {
+  .events {
+    flex-direction: column;
+  }
+  .aboutpara {
+    font-size: 0.7rem;
+  }
+  .eventss .aboutpara {
+    max-width: 600px !important;
+  }
+  .eventImg img {
+    width: 300px;
+    height: 350px;
+  }
+  .eventImgs img {
+    width: 400px;
+
+    height: 360px;
+  }
+  .map {
+    display: flex flex;
+  }
+  .map iframe {
+    width: 330px;
+    height: 330px;
+  }
+  .footer {
+    flex-direction: column-reverse;
+  }
+  .learnMore {
     width: fit-content;
     position: relative;
     font-family: inherit;
     text-transform: uppercase;
     font-weight: 700;
-    padding: 20px;
-    font-size: 0.7rem;
+    padding: 15px;
+    font-size: 0.6rem;
     border-radius: 25px;
+    /* clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%); */
     background-color: rgb(100, 0, 155);
-}
-.learnMore:hover{
-    cursor: pointer;
-    background-color: rgb(115, 46, 152);
-}
-.events {
-    margin: 100px 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.eventss {
-    margin: 100px 10px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.eventImg img {
-    transition: transform 0.5s ease-in-out;
-    width: 350px;
-    height: 400px;
-}
-.eventHeader{
-    padding: 5px;
-    font-weight: bold;
-    color: #fff;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-}
-.technicaleventsCon .aboutpara{
-    text-align: start !important;
-}
-.line {
-    left: -0.1em;
-    width: 100%;
-    margin: 20px 0px;
-    height: 2px;
-    background-color: rgb(62, 26, 82);
   }
-small{
-    font-style: italic;
-    padding: 5px;
-font-size: 0.8rem;
-    color: grey;
 }
-.eventDes {
-    padding: 30px 20px;
-    display: flex;
-    align-items: center;
-justify-content: center;
-flex-direction: column;
-    font-optical-sizing: auto;
-    max-width: 500px;
-}
-
-@media (max-width: 690px) {
-    .events {
-        flex-direction: column;
-    }
-    .aboutpara{
-        font-size: 0.7rem;
-    }
-    .eventss .aboutpara{
-
-      max-width: 600px !important;
-    }
-    .eventImg img{
-        width: 300px;
-        height: 350px;
-    }
-    .eventImgs img{
-        width:400px;
-    
-        height: 360px;
-    }
-    .map{
-        display: flex
-        flex
-    }
-    .map iframe{
-        width: 330px;
-        height: 330px;
-    }
-    .footer{
-        flex-direction: column-reverse;
-    }
-    .learnMore{
-        width: fit-content;
-        position: relative;
-        font-family: inherit;
-        text-transform: uppercase;
-        font-weight: 700;
-        padding: 15px;
-        font-size: 0.6rem;
-        border-radius: 25px;
-        /* clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%); */
-        background-color: rgb(100, 0, 155);
-    }
-}
-@media (max-width:400px){
-    .aboutpara{
-        font-size: 0.7rem;
-    }
-    .aboutpara{
-        font-size: 0.6rem;
-    }
-    .eventImg img{
-        width: 280px;
-        height: 320px;
-    }
+@media (max-width: 400px) {
+  .aboutpara {
+    font-size: 0.7rem;
+  }
+  .aboutpara {
+    font-size: 0.6rem;
+  }
+  .eventImg img {
+    width: 280px;
+    height: 320px;
+  }
 }
 
 .animate .eventImg img {
-    transform: translateX(0); /* Adjust the animation as needed */
+  transform: translateX(0); /* Adjust the animation as needed */
 }

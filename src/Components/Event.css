@@ -35,29 +35,29 @@
   transition: all 0.5s ease-in-out;
   background-color: orange;
 }
-h1{
-    margin-top: 10px;
-    text-align: center;
+h1 {
+  margin-top: 10px;
+  text-align: center;
 }
 figcaption {
   text-align: center;
 }
 
-@media (max-width:600px){
-    .eventContainer img {
-        cursor: pointer;
-        width: 13rem;
-      }
+@media (max-width: 600px) {
+  .eventContainer img {
+    cursor: pointer;
+    width: 13rem;
+  }
 }
-@media (max-width:400px){
-    .eventContainer img {
-        cursor: pointer;
-        width: 11rem;
-      }
+@media (max-width: 400px) {
+  .eventContainer img {
+    cursor: pointer;
+    width: 11rem;
+  }
 }
-@media (max-width:320px){
-    .eventContainer img {
-        cursor: pointer;
-        width: 10rem;
-      }
+@media (max-width: 320px) {
+  .eventContainer img {
+    cursor: pointer;
+    width: 10rem;
+  }
 }
