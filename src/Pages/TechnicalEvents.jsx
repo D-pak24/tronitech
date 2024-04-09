@@ -61,7 +61,7 @@ function TechnicalEvents() {
           <img src={circuitdebug} alt="eventImage" />
         </div>
         <div className="eventDes">
-          <div className="eventHeader">Cicuit Debugging ⚡️</div>
+          <div className="eventHeader">Circuit Debugging ⚡️</div>
           <p className="aboutpara">
             Attention circuit enthusiasts! Prepare to roll up your sleeves and
             dive into the world of circuit debugging at our upcoming event. 🔌
