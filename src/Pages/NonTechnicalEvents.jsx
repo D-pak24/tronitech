@@ -1,7 +1,7 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
 import talentia from "./eventimgs/talentia.jpg";
-import cricket_ff from "./eventimgs/cricket_ff.jpg";
+import cricket_ff from "./eventimgs/cricket_ff.jpeg";
 import memecreation from "./eventimgs/memecreation.jpg";
 
 import "../Components/About.css";

@@ -58,10 +58,6 @@ function MemeCreationOrOnSpotPhotography() {
             <div className="aboutpara">
               <ul>
                 <li>
-                  Participants must bring their own camera or smartphone for
-                  photography.
-                </li>
-                <li>
                   Each participant is provided with a specific time limit to
                   capture and submit their photographs.
                 </li>
