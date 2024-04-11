@@ -1,6 +1,6 @@
 import "./TechnicalEvents.css";
 import { Link } from "react-router-dom";
-import cricket_ff from "./eventimgs/cricket_ff.jpg";
+import cricket_ff from "./eventimgs/cricket_ff.jpeg";
 
 function BoxCricketAndFreeFire() {
   return (
