@@ -7,6 +7,7 @@ import About from "./Components/About";
 import Nontechnical from "./assets/astronontech.png";
 import Technical from "./assets/astrotech.png";
 import Contact from "./Components/Contact";
+import Sponsers from "./Components/Sponsers";
 
 function App() {
   return (
@@ -38,7 +39,9 @@ function App() {
         <div id="events">
           <Events img1={Technical} img2={Nontechnical} />
         </div>
-
+       <div className="sponsers">
+        <Sponsers/>
+       </div>
         <div id="contacts">
           <Contact />
         </div>

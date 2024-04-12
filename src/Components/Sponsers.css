@@ -1,0 +1,18 @@
+.sponserContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.sponserContainer img{
+    width: 450px;
+}
+@media (max-width:600px){
+    .sponserContainer{
+        flex-direction: column;
+    }
+    .sponserContainer img{
+        width: 250px;
+    }
+}
